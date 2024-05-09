@@ -13,7 +13,7 @@ tools = pyocr.get_available_tools()
 tool = tools[0]
 
 #文字を抽出したい画像のパスを選ぶ
-img = Image.open('Eチーム制作物フローチャート.drawio.png')
+img = Image.open('3-768x1025.jpg')
 
 #画像の文字を抽出
 builder = pyocr.builders.TextBuilder(tesseract_layout=6)
